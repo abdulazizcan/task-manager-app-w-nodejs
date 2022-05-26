@@ -1,0 +1,5 @@
+services:
+  node-server: 
+    build: backend/.
+    ports:
+      - 5225:5225
